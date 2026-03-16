@@ -79,7 +79,7 @@ const formatCurrency = (val: number) => {
                 <div class="text-body-2" v-if="pr.approvedBy">{{ pr.approvedBy }}</div>
                 <div class="text-body-2 italic" v-else>Pending...</div>
               </VTimelineItem>
-            </VRow>
+            </VTimeline>
           </VCardText>
         </VCard>
       </VCol>

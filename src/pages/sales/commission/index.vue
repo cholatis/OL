@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const activeTab = 0
+import { ref } from 'vue'
+
+const activeTab = ref(0)
 </script>
 
 <template>

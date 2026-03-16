@@ -15,7 +15,7 @@ const renewals = [
     </VCol>
 
     <VCol v-for="r in renewals" :key="r.month" cols="12" md="4">
-      <VCard :border="`top ${r.color} 4px` shadow">
+      <VCard :border="`top ${r.color} 4px`">
         <VCardText>
           <div class="text-h6 font-weight-bold mb-2">{{ r.month }}</div>
           <div class="d-flex justify-space-between align-center">
